@@ -1,0 +1,107 @@
+.body2{
+    padding-bottom: 4%;
+    background: linear-gradient(to left, #c1bfbf 0%,#000000  100%);
+
+   }
+   .logintitle{
+       margin-top: 50px;
+       margin-bottom: 50px;
+       font-size: 70px;
+       font-weight: bold;
+       /* text-align: center; */
+   }
+   /* .mybtn{
+       text-decoration: none;
+       background: linear-gradient(to right, #ffff99 0%,#c1bfbf  100%);
+       border: none;
+       padding: 10px;
+       /* margin-top: 0%;
+       margin-left:50px;
+       font-size: 30px;
+       width: 7cm;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   } */
+   .btnToLogin{
+
+       background: linear-gradient(to right, #ffff99 0%,#c1bfbf  100%);
+       border: none;
+       padding: 7px;
+       margin-top: 30px;
+       /* margin-left:50px; */
+       font-size: 25px;
+       width: 7cm;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+   img{
+       margin-left: 20%;
+      text-align: center;
+   }
+   .form{
+      margin-left: -200px;
+   }
+
+   .forget{
+     color: lightblue;
+       margin-top: 30px;
+       margin-left: 20px;
+   }
+   .innputs{
+    margin-bottom: 40px;
+   }
+   .waves{
+       height: 30cm;
+       width: 50cm;
+       margin-left: -20cm;
+       transform: rotate(-0.25turn);
+
+   }
+
+.bobin{
+width: 30px;
+height: 30px;
+}
+.btnToLogin {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #ffff99, #c1bfbf);
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: black;
+  }
+
+  .btnToLogin .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #ffff99, #b06ab3);
+  }
+
+  .btnToLogin:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /* background: #0e0e10; */
+  }
+
+  .btnToLogin:hover {
+    color: #5b5a5a;
+    background-image: linear-gradient(-45deg, #454343, #ffffb3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+
+  .btnToLogin:hover .text {
+    background-image: linear-gradient(-45deg, #ffff99, #b06ab3);
+  }

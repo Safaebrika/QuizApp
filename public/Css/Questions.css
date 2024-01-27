@@ -1,0 +1,284 @@
+.mybtn {
+    background: linear-gradient(to right, #21a814 0%, #c1bfbf 100%);
+    /* background-color: #ffff99; */
+    border: none;
+    /* padding: 3px; */
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.btn2 {
+    background: linear-gradient(to right, #ed6e6e 0%, #c1bfbf 100%);
+    /* background-color: #ffff99; */
+    border: none;
+    /* padding: 3px; */
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.underlined {
+    /*   background: red; */
+      position: relative;
+    }
+
+    .underline-mask:after {
+      content: '';
+      position: absolute;
+      top: 95%;
+      width: 150%;
+      aspect-ratio: 3 / 1;
+      left: 50%;
+      transform: translate(-50%, 0);
+      border-radius: 50%;
+      border: 6px solid #ffff99;
+      /* Use a conic gradient mask to hide and show the bits you want */
+      --spread: 140deg;
+      --start: 290deg;
+      mask: conic-gradient(from var(--start), white 0 var(--spread), transparent var(--spread));
+    }
+    .underline-overflow {
+        display: inline-block;
+        /* A little extra padding and overflow hidden   */
+        overflow: hidden;
+        padding-bottom: clamp(2rem, 3vmin,3rem);
+      }
+      .underline-overflow:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        height: 150%;
+        aspect-ratio: 2.5 / 1;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        border-radius: 50%;
+        border: 6px solid #6d6b6b;
+      }
+h1
+{
+    text-align: center;
+    padding: 30px;
+}
+
+.header{
+    background-color: #6d6b6b;
+    color: white;
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+}
+td{
+    width: 400px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cc0000;
+    background-color: #e50000;
+    overflow: hidden;
+  }
+
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+
+  .button .button__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #cc0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button .svg {
+    width: 20px;
+  }
+
+  .button:hover {
+    background: #cc0000;
+  }
+
+  .button:hover .button__text {
+    color: transparent;
+  }
+
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+
+  .button:active .button__icon {
+    background-color: #b20000;
+  }
+
+  .button:active {
+    border: 1px solid #b20000;
+  }
+/*  */
+.buttonEdit {
+    margin-right: 10px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #086611c5;
+    background-color: #097113c5;
+    overflow: hidden;
+  }
+
+  .buttonEdit, .buttonEdit__icon, .buttonEdit__text {
+    transition: all 0.3s;
+  }
+
+  .buttonEdit .buttonEdit__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .buttonEdit .buttonEdit__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #02780ec5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonEdit .svg {
+    width: 20px;
+  }
+
+  .buttonEdit:hover {
+    background: #02780ec5;
+  }
+
+  .buttonEdit:hover .buttonEdit__text {
+    color: transparent;
+  }
+
+  .buttonEdit:hover .buttonEdit__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+
+  .buttonEdit:active .buttonEdit__icon {
+    background-color: #02780ec5;
+  }
+
+  .buttonEdit:active {
+    border: 1px solid #02780ec5;
+  }
+
+.table{
+    /* box-sizing: border-box; */
+    box-shadow: 0 10px 20px #acacab;
+    border-radius: 10px;
+}
+a {
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   .CatCreate {
+    width: 16rem;
+    height: auto;
+    margin-top: -20px;
+   }
+   .CatCreate .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #535151;
+    color: #ffff99;
+    border-radius: 1.625rem;
+   }
+
+   .CatCreate .circle .icon {
+    /* transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+
+   .CatCreate .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+
+   .CatCreate .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+
+   .CatCreate .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+
+   :hover .circle {
+    width: 100%;
+   }
+
+   :hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+
+   a:hover .button-text {
+    color: #ffff99;
+   }

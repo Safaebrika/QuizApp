@@ -1,0 +1,64 @@
+body{
+    overflow: hidden;
+}
+.body2{
+
+    /* padding-bottom: 20%; */
+
+     background: linear-gradient(to left, #c1bfbf 0%,#000000  100%);
+
+}
+.logintitle{
+     margin: 50px;
+
+     font-size: 70px;
+     font-weight: bold;
+     /* text-align: center; */
+}
+.mybtn{
+
+
+     background: linear-gradient(to left, #ffff99 0%,#c1bfbf  100%);
+
+     border: none;
+     padding: 10px;
+     /* margin-top: 0%; */
+     margin-left:50px;
+     font-size: 30px;
+     width: 7cm;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.mybtn2{
+
+    background: linear-gradient(to right, #ffff99 0%,#c1bfbf  100%);
+
+     /* background-color: #ffff99; */
+     border: none;
+     padding: 7px;
+     margin-top: 30px;
+     /* margin-left:50px; */
+     font-size: 25px;
+     width: 7cm;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.form{
+    margin-left: -250px;
+}
+
+input{
+
+    border-bottom: solid 1px #ffff99;
+}
+.innputs{
+    margin: 40px;
+}
+label{
+    color: #000000;
+}
+.waves{
+height: 30cm;
+        width: 50cm;
+        margin-left: -20cm;
+        transform: rotate(-0.25turn);
+}

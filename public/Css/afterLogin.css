@@ -1,0 +1,97 @@
+nav{
+    color: white;
+    background: linear-gradient(to left, #c1bfbf 0%,black  100%);
+   }
+
+.appname{
+    color: #ffff99;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.butn{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color:#0f0f0f ;
+    border-radius: 5%;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #efef74, #ffff99dc);
+    margin: 10px;
+    padding: 10px;
+
+}
+.butn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+}
+.content{
+   border: solid 1px #c1bfbf;
+   border-top-right-radius: 50% ;
+   width: 30%;
+   margin: 5px;
+   padding: 8px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+
+    max-height: 400px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s;
+
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+      -4px -4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .card-image-container {
+    /* width: 200px; */
+    /* height: %; */
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    /* background-color: rgb(165, 165, 165); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-title {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: default;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+
+  .card-des {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    margin: 0;
+    font-size: 19px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #747070;
+    cursor: default;
+  }
